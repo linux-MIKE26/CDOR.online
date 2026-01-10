@@ -94,21 +94,14 @@ git reset --hard HEAD
 ### 📊 // METRICS DASHBOARD
 
 <div align="center">
-  <!-- GitHub Snake Animation -->
-  <img src="https://github.com/linux-MIKE26/linux-MIKE26/raw/output/github-contribution-grid-snake.svg" alt="snake" />
-</div>
-
-<br />
-
-<div align="center">
   <!-- Stats Card -->
   <a href="https://github.com/linux-MIKE26">
-  <img src="https://github-readme-stats.vercel.app/api?username=linux-MIKE26&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&hide_border=true&bg_color=050505&title_color=FFD700&icon_color=FFD700&text_color=e5e5e5&border_radius=10&custom_title=SYSTEM%20ACTIVITY%20LOG" height="180" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=linux-MIKE26&show_icons=true&theme=radical&hide_border=true&bg_color=050505&title_color=FFD700&icon_color=FFD700&text_color=e5e5e5" height="180" alt="stats graph" />
   </a>
   
   <!-- Languages Card -->
   <a href="https://github.com/linux-MIKE26">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=linux-MIKE26&layout=compact&hide_border=true&bg_color=050505&title_color=FFD700&icon_color=FFD700&text_color=e5e5e5&border_radius=10&langs_count=6" height="180" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=linux-MIKE26&layout=compact&hide_border=true&bg_color=050505&title_color=FFD700&icon_color=FFD700&text_color=e5e5e5" height="180" alt="languages graph" />
   </a>
 </div>
 
@@ -116,14 +109,14 @@ git reset --hard HEAD
 
 <div align="center">
   <!-- Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=linux-MIKE26&theme=radical&hide_border=true&background=050505&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideNums=e5e5e5&sideLabels=e5e5e5&dates=e5e5e5&border_radius=10" alt="streak graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=linux-MIKE26&theme=radical&hide_border=true&background=050505&ring=FFD700&fire=FFD700&currStreakLabel=FFD700" alt="streak graph" />
 </div>
 
 <br />
 
 <div align="center">
   <!-- Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=linux-MIKE26&theme=fllat&no-frame=true&no-bg=true&margin-w=20&margin-h=20&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=linux-MIKE26&theme=flat&no-frame=true&no-bg=true&margin-w=20&margin-h=20&column=7" />
 </div>
 
 <br />

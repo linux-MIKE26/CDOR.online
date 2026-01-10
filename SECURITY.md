@@ -9,7 +9,7 @@ If you discover a vulnerability, **Access Violation**, or **Logic Flaw**:
 **DO NOT** open a public issue.
 **DO NOT** disclose the vulnerability on social media.
 
-📧 **EMAIL SIGNAL**: `security@cdor.online`
+📧 **EMAIL SIGNAL**: `ceo@cdor.online`
 
 ### ENCRYPTION NOTICE
 This public build uses a proprietary obfuscation layer:
