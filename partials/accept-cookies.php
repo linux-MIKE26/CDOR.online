@@ -1,18 +1,1 @@
-<?php
-// Cookie técnica segura (IONOS + HTTPS + móviles)
-setcookie(
-    'cookies_accepted',
-    'yes',
-    [
-        'expires'  => time() + 365 * 24 * 60 * 60,
-        'path'     => '/',
-        'domain'   => 'cdor.online',
-        'secure'   => true,
-        'httponly' => false,
-        'samesite' => 'Lax'
-    ]
-);
-
-// Redirigir de vuelta
-header("Location: /");
-exit;
+gAAAAABpYmingYDkj9BJwEsBp2Glui6LXx8nP54lD8_kjqyUrKFbXFrx7WKwTgqUgESiyv3ODOdTRbiddn6KaRV3W-3q8A7wrqC2M_WIVvSZG6kCwA0i0VmfR2LKppiyfhm_akr0nWrtfuu7hYCXBVgvZOf4CEoKy1elnm3694RUhPnfXUsSXx4fr9O4BdpxxtGItcDh4p0vbXmTvK9YLcyp0rmhROSWLNilrPp7IA5v5mVpbhpSOQdCaTB5W5xleIFFYCc9sC3ZKtEIB5HD9pKrNueKxQsLHylHfMvc1G-0cnq5kpfAp-meiq4qDU_9zm-MFbSvXsp-uoEbc_6BlFzkSwNUwxJxourwXjLaWZ5Agdk6whbNMy_Ld9lNHCFh-LlrlZUTOIjOdZhjgRlYrNuOutSi-XZYfHmEkaZeS_Zn30mygiZCS0M4aehKGx2lp4ibsxQp1KZ4e-rM2MRLXinTYcxdwKbObkcEstcSu3RhPDpw5oL9li_a9Z0bYSmt67QLLGaZQatHLHC3dK6pbwdJ-aMRCNbtRFy9iVtKyJuxh5MFihT9P41Zde5-D0eBc6K5x1wzMYC9

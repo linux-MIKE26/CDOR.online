@@ -1,7 +1,1 @@
-<?php
-require __DIR__ . '/app/config/bootstrap.php';
-
-session_destroy();
-
-header("Location: index.php");
-exit;
+gAAAAABpYmikG-0-H8IZULaW1dxcg-XvZN6C0Sf7XjOxpTAPhHHYXR7Q1kx9l58FItvSoUwn6YOlBvdFlEbqNDBmCsC24vV5SvtIfbL9PVlfwu4mPONTd2RoJaJJtLXOVW0VuR-0nzTEdyQCYhdx1EWhBy5TAZ7bFS-qGufoMFj7FhqgQZlO6oMxbvXdAtslaZm4YjpE-pUbGaj2b-9K_1dP_zqfqF3eQQ==

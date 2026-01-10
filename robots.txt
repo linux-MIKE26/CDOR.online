@@ -1,17 +1,1 @@
-# Robots.txt - CDOR Portfolio v7.0
-
-User-agent: *
-Allow: /
-
-# Priority Pages
-Sitemap: https://cdor.online/sitemap.xml
-
-# Disallow Admin & System Files
-Disallow: /admin/
-Disallow: /app/
-Disallow: /*.sql$
-Disallow: /*.log$
-
-# Allow CSS/JS for Crawlers
-Allow: /assets/css/
-Allow: /assets/js/
+gAAAAABpYmikpS0FlM_-LVHzA5t98JwtyJUeMJkSpZnC1vQ4fsjpCOcBnXKICh8q81E6RxIfaSVQSeh5Q2Dr8pZ3haz9NMRL54lz2rGma_cC_ZrmJEhYDCXMQMFekJScW0PBjgALPErXfGvwbzhyF6sx_2Xy_u08cF3ogh80OP9jKVIUN8TSeLPCAl79nZqHM9K5QMhRnr0BCc9gPzQl_3s7-JXlFfgLbTFz6Kd30WA1vIL8eEokwqUbBOAc89rBp1KcWsil1ac87JTCd9iriyySIPmVzqFDdaU3Hc_3cv0KDrKZS61kq1G9Q7Ly5Dre6FctL-g-jwB260aeEbCvMGOmxq05i6wvfTP1YIpbkKDK-hlhjWdIL97PtDyZLSW2g8YGHKZrIehhqCFjD9QQqwN3O5a1TVvyb48VFA8_JGaYxpuL2raxnumnFxMm_L3RdO6Y0v0qyumePwAw8I_QURA0psObykDKmQ==

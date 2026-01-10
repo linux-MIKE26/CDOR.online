@@ -1,8 +1,1 @@
-<?php
-session_start();
-$_SESSION['user'] = ['id' => 1]; // Mock user
-$_GET['action'] = 'toggle';
-$_GET['id'] = 'server1';
-$_GET['command'] = 'start';
-
-require '/home/mike/Desktop/activo/cdoronline/minecraft/api.php';
+gAAAAABpYmikaPTzxAowpeAsu8V93m18sTcFVrP0ArOiWor8Kya5C5a6tJDVufOmgM8XeJNCHuKta24BOWVjxfPu5T84CZwavotakGXlEVsWwwTxT4_qFqkPkXKamUhYkdrfKjft6r0nsKWcV_yXTzci_bOBq3diceiJtHYHB1MBQkj10_ReAcrRe32aojgdXDQq16f5h-M6FB7RUuxobOrdEJcpwPE8qFkD1otP5TdfxyWzv7QGYArk_-1tHPLxQ9uh4A2-W_Ij2PUnjzsr-8TSNYWuoXyEZL7q2VhcmKsggBhcpazZlmA4kiAkx_2GHFLZiVtX_TCKSZBGKY6-tOVhCQemBdYv9Cp6qWljNAGqAyVaaIUkS0o=

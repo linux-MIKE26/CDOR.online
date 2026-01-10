@@ -1,3 +1,23 @@
+# CDOR // ONLINE - PORTFOLIO v5.5 [ENCRYPTED]
+
+**⚠️ WARNING: CYBER-VAULT ACTIVE**
+
+This repository is fully encrypted using **AES-256 (Fernet)** to protect sensitive intellectual property and API keys.
+The source code is **NOT** readable in its current state.
+
+## 🔓 How to Access (Decryption)
+
+To unlock the core system, you must possess the **Cyber-Vault Key**.
+
+1. Clone the repository.
+2. Run the decryption sequence:
+   ```bash
+   python3 vault.py decrypt "YOUR_KEY_HERE"
+   ```
+3. The system will restore all files to their functional state.
+
+---
+
 <!-- HEADER -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:FFD700&height=320&section=header&text=MIKE%20CORREDOR&fontSize=80&animation=fadeIn&fontAlignY=35&desc=CYBERSECURITY%20ARCHITECT%20%2F%2F%20FULL%20STACK%20ENGINEER&descAlignY=55&descAlign=60" width="100%" />

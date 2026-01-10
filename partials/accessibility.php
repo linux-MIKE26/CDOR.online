@@ -1,11 +1,1 @@
-<button id="accessibility-toggle" aria-label="Opciones de accesibilidad">
-    ♿
-</button>
-
-<div id="accessibility-panel" hidden>
-    <button onclick="setFont('small')" class="btn-sm btn-ghost">A-</button>
-    <button onclick="setFont('normal')" class="btn-sm btn-ghost">A</button>
-    <button onclick="setFont('large')" class="btn-sm btn-ghost">A+</button>
-    <button onclick="toggleContrast()" class="btn-sm btn-ghost">Contraste</button>
-    <button onclick="toggleMotion()" class="btn-sm btn-ghost">Animaciones</button>
-</div>
+gAAAAABpYminXGrDdRKtU5A7eIVacJBEqB-tpRs6vOk-z0GhsoqzyS8kYFYdeBZ3iCeW14ZuqNKOX41ZWdsMm_50Fh-bqldnwrnGHEdYqQJW7vVqu_QkKVfNAjYTNm164sB9AU2-eyhHtvxPRGjBzcT-NHDc9pDWStgBJog6wo1Jzbfxcy75FWNgLLKcYAmK_oa2jijHEKByEvy4l7mYC0gDo14e01GTuUjVzKBZjn3DIpP1lyfD-muo7so6BLH30mAz2uYTaJkMvOLutY00IHe1_UHy9TAZU5HLTzWZ0iJdqfckPecvhoqIOhOCrL884cBl158AFmpmBdIoXNn88TIxVBkXY3y1uNpfeV_XBglg3L8b5gCo1Wd1JpxT7yXdoOw7ux7saIGw-6wxKebNkCMgjc40oIML4wDM1gYGD9qXINzk-JnPDWGRUELsBF9141l6U_2K3NXWOnjukn8wJi2-ISaLYSqPUDAdT2iq8YeoiXFDpYD2jT30z1hXvGAFIZZp1UuTEQ6mFjzLHB1b-GwHMRGPFe9XT7mvf0sk01MOnhbk09bYEIUYxHBx9vHUFS-_SccSMV_oxkNhXwQHDPZ4dNfduCvEaPsULWSSkUqdbA_A7sdy-v4nFMUYf3WxSebxQQbdaQD1UEkD_ovOLZnI0O4QV37G5NEH6kNy90tFQKI7uaxKhZKWCR0AuqVIYlpYdwkCnFL36LnkfCq27Tgg5vN42oSAzl2duoHgyx0iKw4EVMyGnU5tt5EUunkqbkAeqiRju8hJQweWFb3O5xDaF12vTXZoGw==

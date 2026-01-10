@@ -1,17 +1,1 @@
-const {
-    contextBridge,
-    ipcRenderer
-} = require('electron');
-
-contextBridge.exposeInMainWorld('api', {
-    // Auth
-    login: (token) => ipcRenderer.invoke('login', token),
-
-    // UI Updates
-    onStatusUpdate: (callback) => ipcRenderer.on('status-update', (event, data) => callback(data)),
-    onLog: (callback) => ipcRenderer.on('log', (event, msg) => callback(msg)),
-
-    // Controls
-    startServer: () => ipcRenderer.invoke('start-server'),
-    stopServer: () => ipcRenderer.invoke('stop-server')
-});
+gAAAAABpYminzh9Afteqf0tgGjVhyKRdtqjoDiYrKw6JofQmfGLF-8XcwSGgWN7zsjayWC9D3NTMKV4IZ347Yg_FW8lzdbaHuBUE43f4HhQHo9Wz17FBJnet8Ql1ctTpfysHGKs2AypohKjWUy1PXZrLcREm16y2566gWpSRpnVmTaPs0uMs9VLnxCrc9Wu3pnDJ_xVudC_YHHIUXienPDTUiK8ltzBz621G9rcDZm2er0QB50_8eQjeg-YbG2R9JtC98UPw-SbVz3CUAGEElEiQ8IJQjWjSP_uAQsDoCbDz2lzrzeKLihE7jZpXUC64JofOPoG3R1ZAw0-IXG764Ey735KZC8AwXpSNthwlqxG7OaOoy2GvaYxLJhD9f_c3qU8DS-7CJbWH8-XKacYhKITTPELBsIQj7LYPsekzRZVsw6PwmX3z6OHeCPuZWkG9vpFCNQ0OegfmYfFoaCTcEzbuD3BPxW-NgW1GtYHLfOdCTDXDRepaQ-blss7BNTjOzgS6au2XhluXAG9GvAjvP4X0O8O5vIVhakBVL6qnafAVipL_33zTXeLlaFafVJOibUm7RlCHama2u7pB8SrzGKbljuAncrJljB0AehkAvTm02aZrcyyAF6wbWupXvNGDdTjtWSn5jvs_FrBf_6eBaTZWRp6Bd5qHW1AbHq0m7lFTrVbmwJ8MYyJLs1GGcLc1l9m7ax8ZiBnzppq7HXh897MIo3nCEwCI_bTWArhiWPpXCQWYCP4-hC0JxWNo93Sfc2MajwLfrjcr

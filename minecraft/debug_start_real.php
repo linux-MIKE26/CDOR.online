@@ -1,15 +1,1 @@
-<?php
-session_start();
-$_SESSION['user'] = ['id' => 1, 'name' => 'Admin'];
-
-$servers = json_decode(file_get_contents('servers.json'), true);
-if (count($servers) == 0) die("No servers");
-$targetId = $servers[0]['id'];
-echo "Starting $targetId...\n";
-
-$_GET['action'] = 'toggle';
-$_GET['id'] = $targetId;
-$_GET['command'] = 'start';
-
-require 'api.php';
-?>
+gAAAAABpYmikwQYdJvgePgdvtR7UN9nMOdT57WLJVQ349uu9Lg1GaqN4Z7ufQa6bcwl7eZUE8w6bVTnBnfl95MYE4lKfCWIOceqlhPma_rtXUOwMlnObVVGWUCd3W83T_Q4fm0ODsiwmmEiiCYC53uRB7orVNo9IPkDj6ipceXGnI-9dVTREcSipN474LvwcPQQgD84UTh8826KBskPRxjxDomrMzi_S-8YFG3WSkUtwPRmMaRTc4A5rweu0Lefc3Mfh0T_6KZmf31SbiB6pLM02XoKeGqdKhVpFVSerVbNdcBCHN5xmR_OY0gXCnvUdyqD4l_n7gsAsDF0gADBV-M4LTPhCenZo56wiwU9x8aXCvbiJyY2NbWMmK_z7m4PeuKgVFIbP0Rtnx34_wVPUkQV8ClsGED5IDvTft5uDl_gg8irCLQyqCehNVUlssgTvJGs-zlwqNg0y_vusOusnIwnQIPB6kPYdMHyPoYXZUnawsKdpl0t3zh2JZzchJSyZbBXahozftPduIRVd7-wMdej6zd0aRL6djMqQFjKHs95I1UwRTQKg8U0=

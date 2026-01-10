@@ -1,12 +1,1 @@
-<!-- Add this before your </HEAD> tag -->
-<script type="text/javascript">//<![CDATA[
-var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
-document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
-//]]>
-</script>
-
-<!-- Add this before your </BODY> tag -->
-<script language="JavaScript" type="text/javascript">
-TrustLogo("https://www.trustlogo.com/images/install/instantssl_trust_seal_md_159x42.png", "SC7", "none");
-</script>
-<a href="https://www.instantssl.com/ssl.html" id="comodoTL">Instant SSL</a>
+gAAAAABpYmiks8A8mpw-6ZAo5qCsrw6EEkrkNCaioMqVLayzHdkq1WedGWhOzYhaaIqnktdhmCUickZMSJMu6RIXdSyq3QmzFGf934wiuylPnFFrV1qlE9KBaxEKy0yzS4mycbY2dmXhfjiqRATHaVpVn_-n7a03ttw8ItrNNhhbuVuQdQV43d5goCFZpjPzEGSxv1Ij48zoT_syliSY1uGQQ-KeI_hzCCkOuQoOS5wDbHGh0SJA3NCjZ3rkE6GYnJ_1Or4YMgKZwVoG8KI5TOSFHXm3GWvZT-04Ida5H1Weatkf5NJDsxXFYy5M-DPrccEYYNFxy0IZ3u8C9FXpefXxWffJJFHTI5O76C_t8a4ALtLaH1mP3oREFKhsHDF_DRxW81JMWuZXqC7cQbS_gB_4URYZrlG-UHc-P9tn6pHCrQkNHzEheXmv0CCnunebGYSkYbBKzazjW4xKDROf9-bbSPTJBRm-SQz_5bXeQZDQfZeDqjfHlRlxd25iyv6988VcOe2HpjsgHkBXgWyKTwfAkUW5F-AFzyBfwUl62H0Od1BySaGmvg6RMZ_FWwM5FLTMJ-fRxdpzEQjbe3_5B1O38-X8DzYSz2X477yuygm94h3CTFSZSFp2fLxvLr9E9B2GQPAMt2wZkLK5aG8o6zGqmaDU2C8pjp3kvJoFVRkfWXvuPFAA2BsnfBD7MF31hLXQ3SXYUZds0YIZbPaggcNCOW-NEof9EVh4Jert3GTzniLHZvbay7CP2FzLoTj3erTy01snVK74jDFAjGly-qkyrNRUwGRafTTyYaS7Uh6e0CIIUNFS_Y7Rgu82fNQJNOWqiYzJaS4tuT6-PM4Um9RL9lw86QhtEbKBozNAyDUh9tB1_X-dDHCKGLANZTjLRKOs5U-PWSs9dc2KIt6mrZ_pzH8Qx-CbgS_zTapnsvdepQcFBCofEe0=

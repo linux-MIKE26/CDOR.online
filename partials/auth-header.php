@@ -1,5 +1,1 @@
-<header class="auth-header">
-    <div class="auth-header-inner">
-        <a href="/index.php" class="auth-logo">CDOR</a>
-    </div>
-</header>
+gAAAAABpYmin8yreP9VaV6iskuZFLYIsAnTvidOVdNQ1BQsGadrbyXrY_jRc-JVdYAeHqECsdVbZoGQEZ-RxFD4EyPZAww_O1BWZwO-tPgvsgm5XTlWmP0pSE50tDwAbk1QQUjAu-H09IPllWAEZchN1XYc_FF3BL4sOXbQU_pWWULG-yLGs1uQ7Vt4XQJNm08RnR822TOrqmeVmIH4iuqmaCH9RbLyKMA5CSAzXxmooK9OiK_3ls9VqmNdMoLvfrXk7dWanFHkb

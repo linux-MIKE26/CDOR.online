@@ -1,8 +1,1 @@
-<?php
-require __DIR__ . '/../app/config/bootstrap.php';
-
-session_destroy();
-
-header("Location: /admin/admin-login.php");
-exit;
-?>
+gAAAAABpYminJ-J4kgLz61My0mt2xCmN2x6YAtlKXmCAWL2CAr5ca4NcTxTUfUI50GVUELXWW6hHvpj3UFLxIJ3GrXsWxJEqzmPVIfCLRxEC5ttn_A58pMdNbypMsY2kFbUcQ_7j4iDVfaD7pgLbueClYqtDcz4jxHM4gOnW-k0VzzZkXowPlCkoRQK0qbH7_hV3vNbSMkr3Gb7IrzC19PethOX6Ij-44U5r-GreRgcUM9xcqFuPZFaFK0dC0zyBfpMAWl00pgv0

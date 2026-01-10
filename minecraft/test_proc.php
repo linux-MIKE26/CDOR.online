@@ -1,6 +1,1 @@
-<?php
-$pid = $argv[1] ?? 0;
-echo "Checking PID $pid\n";
-echo "file_exists: " . (file_exists("/proc/$pid") ? "YES" : "NO") . "\n";
-echo "is_dir: " . (is_dir("/proc/$pid") ? "YES" : "NO") . "\n";
-?>
+gAAAAABpYmikXTqc8yAnmgijzGo90t6QPe4blVaxVWGXO6ajlckHlQM5yXKOSJ09ie8UevH15ZyhET5HNfuHPKeCoptyqRdVs7TZXyKO3hmPJktd859gdFBZBaPnBShRatFW0tY7NfP5Ix13TCjFHim_mg650GDXZOCCObgm1B4XC1TJmPKigUrUeDbZrE1z-SWaQwynw96VFio3qRgE5sTbYujd3ot2nvV1p0ZWeiu9lTmD6PF78cXh52NJIAwNLDfsWHp6PQ-fR2-P8SJ7lVRo6qPmpG80qcfe4rEt9frGTXzG3Ag5jRKzsCxMl70RQYAeCNeWoliKjaJIrNCR1Dt4yOrjk-VvUg==

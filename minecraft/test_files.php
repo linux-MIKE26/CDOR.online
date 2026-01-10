@@ -1,7 +1,1 @@
-<?php
-session_start();
-$_SESSION['user'] = ['id' => 1];
-$_GET['action'] = 'list_files';
-$_GET['id'] = 'server1';
-
-require '/home/mike/Desktop/activo/cdoronline/minecraft/api.php';
+gAAAAABpYmiknTGfvg3wsnglOppzJayONhffCdqxJ9ftSZTm-544ThCQL0dN2LbWsvsYB75tnfDBHh7uuCZJCnEkb4HRE8o28ZuE9mVADdTpF8UJs2ZUiRlvS9Bru1Sv_OTy3tnaOEMYkTK2DuP6lcrGmqW18-XqZNXvvS5AE8DqG0djEhjzTy5uxtYTn5SISjxgPfEXwGHqTJ1NsIywzjH39FVCcY1MVuERd2V0OE1rDarQJdUTdLXvNQh0sookFQU2VeoyJvP7M31AkC8UNtrPxKY-KmGAFWCJw3QKPOidw6E0jLx8IZPJbnbWUpkTSaYA7RahCm0n

@@ -1,3 +1,1 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Menu toggle moved to ui.js
-});
+gAAAAABpYminngdc45hAaAxc1UtvjGd3GOvB2Srh3ZqHUcsiRnwbF7DidyBIQEDjNJaV0EordVO5liUDJaQCs16nrT7E6jOKEW5wnv4J06ZO5bVMdEjXq8czAkrhCEuwX2oyOQlkaMVQZs4tD61ncpLfPiPBgYznUu0g2NN4Tl7Zmiq3RxFe8nJs-LgJuQJ679QOHu8_LsF_

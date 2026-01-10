@@ -1,8 +1,1 @@
-<?php
-require __DIR__ . '/app/config/bootstrap.php';
-?>
-
-<?php include 'partials/menu.php'; ?>
-
-<h1>Contacto</h1>
-<p>Aquí irá el formulario de contacto.</p>
+gAAAAABpYmikrAEfjvbc811ehs0WCPPVVFsdET5WV4tEsP5yEks4CbxwNVCvrOwyeANUB2x8X86W7ny7c9g7GQI9ZcIaARdL85wKCw0gcKuDl1DEu0O0kibSoWBVGd6Dwh5wZ_AqebowdvEVt_qHkIdSjBlTcIl113drcftcLvlFtjIZr3nX6p9F63oCbpD1hOUCBzMG2fNkZyV87a1OM9az4roRNHwjgGPgftq0WbwZXDiY-oHz9ACIwj0JU-vswJa2Xw1vRQosE8o924pj2XlkkY6wi6qcYg==

@@ -1,7 +1,1 @@
-<?php
-$dataFile = 'servers.json';
-$servers = json_decode(file_get_contents($dataFile), true);
-$servers[0]['name'] = 'ANTIGRAVITY TEST';
-file_put_contents($dataFile, json_encode($servers, JSON_PRETTY_PRINT));
-echo "DONE\n";
-?>
+gAAAAABpYmikAreF7DkNF0AM0Ve2NkMcHBKCBVWnkAXJhdUXw3OoDfdAMm-sFwUHCIlmQcO_quQ4xgGOsyAh6AXVgDCh4Lr0xc6VGfTBwwhKLUuThOBI7Ox11LG3dbr0Zwbeg50Yd4TYk9Zu7dqaJbPsT19zwem3j8OlXeVGTg4DGeSDfxfY3-3iM3i-ZdzN-f5PFAdCoLY-NTQikI25mfxndfBtj-5YVvXQVfnwzj5MSRG48DGvg-DA-lC_FxEbdN8ls_3pY2H9FTRjGE2gCExhDKcv2SaJi6zUFkKC9NVQviOOz0HT-b4xE2X3w2AK1ak2PYmg7px6yGttKI-5veFaSQegPlP-IaTYKikWRbmQEBcNwsVhKTlBM_PKOvsySaJRlD0gfZjx

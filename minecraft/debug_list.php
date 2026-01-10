@@ -1,14 +1,1 @@
-<?php
-// Dump what PHP sees in servers.json
-$file = __DIR__ . '/servers.json';
-echo "Reading: $file\n";
-if (file_exists($file)) {
-    echo "File exists.\n";
-    $content = file_get_contents($file);
-    echo "Raw content length: " . strlen($content) . "\n";
-    $servers = json_decode($content, true);
-    print_r($servers);
-} else {
-    echo "File not found.\n";
-}
-?>
+gAAAAABpYmik6UkGEbCczr94QSyvKbKKX01JLdnJt7o3xgn3ZEnxFRarr19QYXvUEMgjLlNz-6tl0D2zaCpaBmGceePlXb5TgakW7OIQYe7NVAAo6yAeQAATvGySlw5cogfQ0GIFLjDdZMCl6-bSo50drYwjstbx9Vv3UnEgN08TLbkXhbzMpGkl5Znh4W-BAiQWOID_Xt-pIA-mux-WmUT13L9P9HiYjzXzXnzRFbVLb-3W6AVJ4aHuMKEdj1VftGc5Qf9beTL-C23Snc9X7Ta2FLWcWHWLAUMZzFqLmGbybYmPbm8_TRXgVv8AM3NSAOhz21A0Hb03bbaMt9IGZQG6LrpUXMTFpqDEAhOuEKXPrY78kXROUIiq_EfxLotDXC1EWEhXArE_hI-5Loa_WxZJj0ngUWCmrHZzEcrzPWoqyQItNkBIUVCECBvJHeyKsRMQaFrD8J4d6W_q2xxLOdSdpGF1kVfdXKTnsH4BEPSlTM5FHr5GCR2RzDsK8Mw8Qz5S4_dq59H7I3BBvYceEd4EN0aWXy8DHfFA5JGsp8-p5b9QIONopF5ole-GzJKdgovlAFiKjUk-

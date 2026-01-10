@@ -1,11 +1,1 @@
-<footer class="auth-footer">
-    <div class="auth-footer-inner">
-        <p>© <?= date('Y') ?> CDOR · Panel privado</p>
-
-        <nav class="auth-footer-links">
-            <a href="/dashboard.php">Dashboard</a>
-            <a href="/projects.php">Proyectos</a>
-            <a href="/logout.php">Salir</a>
-        </nav>
-    </div>
-</footer>
+gAAAAABpYminRQ6J_QguqKoaP-tQjx-8a4yVLkYrdDSSLBapagN22QsCsToQ8r5WXMLy8lLvUHbd6cA-mR0P1laqfZewaaHRiQDDbAFYJ8ZqbTez42WJ-SJ0TxG5z_Zf4d28sSmvydwPxThHFMYC1cDY7Bbl_Vfa31CgjIdI8yBDbaxtpocOO6eQ7HV7Cv9lNKEwAt4YNe6RxLhW3-7tMeXaCvdZSOcMuFeK6Q7yXRTq_9C7APUfRVzNZsx28rk8PssqBB9JawxW1vDOxe45YASXUx1cAN5AisxDraZgjgqLsIRxdM3yGr6yXgBf7MYTTWUTfVKbCx4lPlX-GaRRVBB_ULk7ukvPkZGmhaEb3pbX2yAiru9jlJL2Qmil7b1m1s_QT5PpFYuzD-glUEGBy-gJbdjr9KF-fab-LjEE4opPQ7BPfu1C6TZ-56lHjX0u7K0cUqutMBUQ6rC9JhiUdxJykUR6uzEkrvyChbAZhYfoLQTJXflU3NOe4BIIX_eVp7VAKMZk8kv-yNLYnNDdlV6ZwxJQq9Wqrw==

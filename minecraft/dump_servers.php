@@ -1,8 +1,1 @@
-<?php
-$dataFile = __DIR__ . '/servers.json';
-$content = file_get_contents($dataFile);
-echo "RAW CONTENT:\n$content\n";
-$servers = json_decode($content, true);
-echo "DECODED:\n";
-print_r($servers);
-?>
+gAAAAABpYmikeLGzRdHzl-lrQSItLy_uLGGvnEM6TGfgPLEC51mGZenT3HCRPTJGdyF0EwwUNy1lZ96wqEXg_mFiCFgpsljFQBlXZHrf0GdFgsBQnbygY-ePMBj5t46tuS4C0dnDCurqHPrjYKqkp7hGhIYNQNMW5mOn1NTcA385AczGkiJnXi64BK44LWTnubBB3WdNd36bEZbRMi3zZMuRDMwJkFATzPCCUyXlmX9IIot26V3KuQfeIVJ3NsCOyk86THaNIn4p9Kl1khn5W0ljxy6MSDuIQ02pa9QxMI-46DjEfBdEPAXNXYrLesZEs2uMjo0bZiyhzHov5XzVJU0aTn05zf8ZmQ==

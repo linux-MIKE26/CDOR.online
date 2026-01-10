@@ -1,6 +1,1 @@
-Traceback (most recent call last):
-  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 179, in <module>
-    main()
-  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 169, in main
-    sock.bind(('0.0.0.0', SERVER_PORT))
-OSError: [Errno 98] Address already in use
+gAAAAABpYmiks75K8Qeb_x5eaGijd_WmflVPiM4yAW9EUsiqfz48XqihHCAwNb0DsvRZ2huUnYCpsWKCD5UyMGU49fugbLkTSsKghHyCk6vOEU5eUbVt12NyoODX2LwpIxDID2CVell5FsMvnyTMAJhTjBGG---wHm-JpgYpBbyTiTK2vGk3azZNBc9iiYgM-TAOovh2lkVWpg5EWmIj4ZCx2pZzz9OP6SJv-gc6CpzEuKuuewDw7H1867CWqQmNWJD6N2bBbPXvpuztaqOLV5T_fEJi2zrt-DZA2M-CTS0CIjUlFTYRdYnXlUmFgVUeMtiFSbLulYXGvgdSjAH8j6kYSlwadHPPvF-ItkyQ5P4mtVFMavVm3eueeYsxJL1LrCZXrA4ordaRkPaJmG83M98-Ab8oi-HUQPdBxhYBqVR46cSgEAqFwB8jtm4ZPkSEB61CCswZKvfa9d5D75-E182cYGrDDkD6TDubXFQBkkBDBc3NtJYCNRhP9jjyzMjBgbmttypjELKM

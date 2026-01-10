@@ -1,3 +1,1 @@
-<?php if (!empty($_SESSION['user']) && $_SESSION['user']['role']==='admin'): ?>
-<a href="/admin/dashboard.php" class="admin-gear">⚙</a>
-<?php endif; ?>
+gAAAAABpYmin9h2bjMhOsEQr7bitZOgi9lNBDFlf8e9tIP_oTd8AUld3C3pHI2ZZIRvy3ns1ia1YCLxHlgxYXkpoAKk92bNJ_jlh9ZrLPe_9AlKwE8XcWgQer0L8OxQxgQqKnsDNJD7nAaXZyScF0RcIr856T7q8iS8kdNlXlOTCznZA0ZHNvswWGyIXB63f78fR3Jd4TQ9oIbiLbpaUBw2IE9kM5JOV2j6LsaQArHBQSlSR42FtMTF5s3E6uo8boulhPYm9K-f9yqH5JuuLHEcoVxlHZbhtLg==

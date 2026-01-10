@@ -1,17 +1,1 @@
-<?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-require_once __DIR__ . '/../app/config/bootstrap.php';
-global $pdo;
-
-if (!$pdo) {
-    echo "PDO is null\n";
-} else {
-    echo "PDO is OK\n";
-    try {
-        $stmt = $pdo->query("SELECT count(*) FROM users");
-        echo "Users: " . $stmt->fetchColumn() . "\n";
-    } catch (Exception $e) {
-        echo "Query failed: " . $e->getMessage() . "\n";
-    }
-}
+gAAAAABpYmikEN0i9ZXgaLMmrUBqWX06djoHq5AqTmeyjMcAgaiQQCOITCKdusnPqcWR6mCCiG2f2eBcH_l_8cdzu-0trZWIYwN0xYIecgv6fmSf_1zebpq1QK8_lOXQm9n15XHow29Di86XCEGoDQBMksTxBD6lUlgsGVMNQZve_zLcse0XBUXcv8e0jTGbMR95hz3dvpIgBCIZ_prVuMJydA-r8Ux8ee0IxlQWL3_KYgZG81nJNeMjGQpAa8LSsGmOk5sIPYxMBcDhGnw_1rXT219sSFUlUjJVdO61Uk2fkF5Kofbig1Fb7LymIxgfqlXT2_aBf4Mm1O44k0mtq6UkU54bBoKGJKOtMsd0c7omaIuP34D_sR65pwoV2mB-fh2WHYq0Oselr7JPlb3mCuWgxoSxycTy05nxX5eBInbiAkJXzjtiq1E9Y9TO5B5Wh2LDDz474IHARocYuRHE2mKU2bYZB2oA0r-wngexyjC3XtRfdzCTghIxRewLXSxkW0W-XiH-MA5-G4cDQabrUU7HR0s4wY8WGPPcW5MSWgTC-jsU2A66l9jfywWsB_sv_AZsgggU5QlZ58swmWvDGptDAB-gkeOfsDxfYB7OswAW4pp3s7pdrlIS4toalKYDUsue9ctohQpV

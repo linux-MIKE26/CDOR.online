@@ -1,14 +1,1 @@
-<?php
-require __DIR__ . '/app/config/bootstrap.php';
-
-// Configura aquí tus credenciales reales
-$clientId = "Ov23liCePlT5V7Pf9bfY"; 
-$redirectUri = "https://cdor.online/github-callback.php";
-
-// Generar estado aleatorio para seguridad CSRF
-$_SESSION['oauth2state'] = bin2hex(random_bytes(16));
-
-$url = "https://github.com/login/oauth/authorize?client_id={$clientId}&redirect_uri={$redirectUri}&scope=user:email&state={$_SESSION['oauth2state']}";
-
-header("Location: $url");
-exit;
+gAAAAABpYmikqgJDSJmEFl-zSVVkGmsQSFA17BJ7bZ5q-sxoDE1ixqWTCl59HfXbbEAX0YOe5QVXhmbxyAdVt-HO2b6FAIqrACwO1yKanAs_P0c_LNzuhmDB-pH-sgFZwpDAIHfe4SIpsB-Mi58V3Ow3pDkegA_IxYutD6BImJE5_NMos_rBD-OsQhvqwiZB9332WkPmpklslqWtepXIK6Zn96NUIAwFm4X3o8zLYXH3w1tF1jn5GJqUb7Vy0y9WS3mZ7Zk3og95_cJIoeWoMZQ35s02ErZUtx_tpwjhQr0GkenIOno9WGgpA6GPxaC3BExqxnStGpT29eP4gZV9eDgXw3R6uCVxUTQ2zKRtqurOaXRtZXhqUKqFN30w3TN9CkKLgfg1xnLTQt1bwXVjENw7TbYLwhkGCZbUsz6gQurH68hsPCMWEilHhUVWN4_9Q5voVTjgnqvycmIfxaQOcq6XIRGqzAoZMQFbiU6sUa3IiNyizwgsRtU1p8KQWvTTKyjU_rEEQajBlAQJX_Cq-Z9PBbij0zHX0xb4m3EQ82kECc1ci03QkfEsGsABovZSFMAZW-2hI5wBTg-TvQHRvLJQs0W5nacWkUdQb0Otxxo0joKCnJ06sIadn59rO4n1yc0C9OeIdXt6_mUZOCV8VJxdwO04RMTqWD-euMC2NrU2YCjGcHUcjCjwV9utqfMLY-l5XM8Q5FW5
