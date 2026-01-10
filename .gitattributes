@@ -1,0 +1,12 @@
+* filter=vault
+
+# Exceptions (Do not encrypt)
+.gitattributes !filter
+.gitignore !filter
+vault.py !filter
+.vault_salt !filter
+README.md !filter
+LICENSE !filter
+SECURITY.md !filter
+CODE_OF_CONDUCT.md !filter
+CONTRIBUTING.md !filter

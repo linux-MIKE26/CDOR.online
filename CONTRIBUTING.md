@@ -1,1 +1,24 @@
-gAAAAABpYmikn30ak9fjmCjyfrLqV1xxxwoijCPS3Rq2LKuBQ9JO-oRiGgTktyX_706FluwEEWkjX1g5TjwCV5cCL0efOlWJhwHG2qL9B7EnkpXaYbiYWtUX5IHzgout0D0MfdbX-QunFebNmMOLZGWVEN3X9U6Ce3BZBp5l5soCXjMyRCepQzJ9XPLaVk_uGQgRlNhKoporGCt8ekRHqWFGe2UjDTVr_xWBjbR6BRWA8KvfJANBEU4ssR1m1T8LrLZ8U-7O9o7HpDWTEh6h4V87vORN3qF9RrZI7AhVOK_HzWhsVYbJfDKh3lMT1wueP9KDcBmS1-KZVX-p2nXA5horYzIgmaue-f8B8opgKfIbL7aEkuSIEY9Xcdonx6k-mPB05KjCsCCenjsu9nm8umPu34SYzoGTOstM9MbvgK65LiV0gTdLNUKu673KvwvlwFQTUtXhFRZ1Ims_RW4CpUpyesV-q-kR6b19fbdsEpveudKBdYG_lcJsRHfRVnngliapLDNLF_o6ql_C0EyQ7ydAV7_s3JgtOk5FEKpvIpvj6vF-5_Nh-nu30ZZ4dfwUgq3T2P6uBkGpf2vcUiRbICruXFbzt07YbIu0CcXiP4tA4blSeDaKpWSTFD56CoguuhK_KhqAlHj1zqbIBR2P84WGIGht0bCE3tGQ11xj9prb3cJLFNc3b2oDFGcbjFyuRznv1MP3EBZt_w-AYJ5GtBcOVvEJwu0RaUHu2QBG21Coz2TE1zAsedM3VnJBiz_FriL-tdmMCJcJpO13AoH_s998RxWZkQozig4pt4XWAvDMeDIlsQx0PG2ulwA0WgWKZZhFpCc3a0x0oWcltgAJJpwFjzszXZgJ34P0CN2kcfZql2MBSC_kXz-uXNmIej3L0pdWzjKitrVz-1sZDeToJSaw1VJwXDbPSeMKCTQwmO3uDAqsvWAYw5yw6vpg_JbmXPcd1YOcI_SVmNqDhEeXL2wqm0YXkwtrgUTInh5s9nPaM_tt4asih-j6U4axPZ8t1OvByeql0M0AvJClGeWqnNsCn8YCLR8zOQ==
+# ⚡ CONTRIBUTION PROTOCOLS
+
+## SYSTEM ACCESS: RESTRICTED
+
+> **NOTICE**: This repository is a **Public Read-Only Mirror** of a private enterprise system.
+> Direct commits to the core are **LOCKED**.
+
+### 🛑 DO NOT
+- Submit Pull Requests to core logic (they will be auto-rejected).
+- Attempt to decrypt or reverse-engineer the `dist/` codebase.
+
+### ✅ YOU MAY
+- Submit Issues for **Bug Reports** or **Vulnerability Disclosures**.
+- Fork the repository for **Educational Analysis**.
+- Suggest aesthetic or documentation improvements via Issues.
+
+### 📝 STYLE GUIDE
+If you are submitting documentation fixes:
+1.  Use **Cyberpunk/Technical** terminology.
+2.  Keep it concise.
+3.  Format with Markdown.
+
+---
+*Transmission End.*
