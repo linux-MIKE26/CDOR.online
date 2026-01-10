@@ -1,0 +1,21 @@
+# Credentials
+app/config/database.php
+.vscode/sftp.json
+
+# Logs
+*.log
+minecraft/logs/
+
+# Temporary files
+*.tmp
+setup-admin-fix.php
+setup-admin.php
+setup.php
+db-update.php
+reparar-todo.php
+*-fix.php
+emergency-*.php
+
+# OS files
+.DS_Store
+Thumbs.db

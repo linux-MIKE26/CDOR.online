@@ -1,0 +1,59 @@
+Failed to start. CMD: nohup /usr/bin/python3 /homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_server.py 25592 > /homepages/25/d4298736585/htdocs/cdoronline/minecraft/logs/69485efdb70c1.log 2>&1 & echo $!
+Output: [Error] [Errno 98] Address already in use
+
+Failed to start. CMD: nohup /usr/bin/python3 /homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py 27083 > /homepages/25/d4298736585/htdocs/cdoronline/minecraft/logs/694863ddc7282.log 2>&1 & echo $!
+Output: Traceback (most recent call last):
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 179, in <module>
+    main()
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 169, in main
+    sock.bind(('0.0.0.0', SERVER_PORT))
+OSError: [Errno 98] Address already in use
+
+Failed to start. CMD: nohup /usr/bin/python3 /homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py 27083 > /homepages/25/d4298736585/htdocs/cdoronline/minecraft/logs/694863ddc7282.log 2>&1 & echo $!
+Output: Traceback (most recent call last):
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 179, in <module>
+    main()
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 169, in main
+    sock.bind(('0.0.0.0', SERVER_PORT))
+OSError: [Errno 98] Address already in use
+
+Failed to start. CMD: nohup /usr/bin/python3 /homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py 27083 > /homepages/25/d4298736585/htdocs/cdoronline/minecraft/logs/694863ddc7282.log 2>&1 & echo $!
+Output: Traceback (most recent call last):
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 179, in <module>
+    main()
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 169, in main
+    sock.bind(('0.0.0.0', SERVER_PORT))
+OSError: [Errno 98] Address already in use
+
+Failed to start. CMD: nohup /usr/bin/python3 /homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py 29957 > /homepages/25/d4298736585/htdocs/cdoronline/minecraft/logs/694864cf4c79d.log 2>&1 & echo $!
+Output: Traceback (most recent call last):
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 163, in <module>
+    main()
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 153, in main
+    sock.bind(('0.0.0.0', SERVER_PORT))
+OSError: [Errno 98] Address already in use
+
+Failed to start. CMD: nohup /usr/bin/python3 /homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py 29957 > /homepages/25/d4298736585/htdocs/cdoronline/minecraft/logs/694864cf4c79d.log 2>&1 & echo $!
+Output: Traceback (most recent call last):
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 163, in <module>
+    main()
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 153, in main
+    sock.bind(('0.0.0.0', SERVER_PORT))
+OSError: [Errno 98] Address already in use
+
+Failed to start. CMD: nohup /usr/bin/python3 /homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py 26876 > /homepages/25/d4298736585/htdocs/cdoronline/minecraft/logs/69486564dd912.log 2>&1 & echo $!
+Output: Traceback (most recent call last):
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 163, in <module>
+    main()
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 153, in main
+    sock.bind(('0.0.0.0', SERVER_PORT))
+OSError: [Errno 98] Address already in use
+
+Failed to start. CMD: nohup /usr/bin/python3 /homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py 26876 > /homepages/25/d4298736585/htdocs/cdoronline/minecraft/logs/69486564dd912.log 2>&1 & echo $!
+Output: Traceback (most recent call last):
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 163, in <module>
+    main()
+  File "/homepages/25/d4298736585/htdocs/cdoronline/minecraft/mc_world.py", line 153, in main
+    sock.bind(('0.0.0.0', SERVER_PORT))
+OSError: [Errno 98] Address already in use
+

@@ -1,0 +1,20 @@
+[Sun Dec 21 21:24:30 CET 2025] Request to start on port 25565
+Error: [Errno 98] Address already in use
+[Sun Dec 21 21:24:31 CET 2025] Failed to start. Process died immediately.
+[Sun Dec 21 21:25:07 CET 2025] Request to start on port 25565
+Error: [Errno 98] Address already in use
+[Sun Dec 21 21:25:08 CET 2025] Failed to start. Process died immediately.
+[Sun Dec 21 21:29:18 CET 2025] Request to start on port 25568
+[Sun Dec 21 21:29:19 CET 2025] Success. PID: 3289553
+[Sun Dec 21 21:38:59 CET 2025] Request to start on port 25565
+[Sun Dec 21 21:39:00 CET 2025] Success. PID: 3322472
+Status: 404 Not Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: application/json
+
+{"error":"Server not found"}

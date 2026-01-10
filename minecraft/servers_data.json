@@ -1,0 +1,25 @@
+[
+    {
+        "id": "65846f1ec01a2",
+        "user_id": 1,
+        "name": "ULTRA-NODE-01",
+        "type": "java",
+        "ip": "127.0.0.1",
+        "port": 25565,
+        "status": "offline",
+        "software": "Vanilla 1.21",
+        "players": 0,
+        "max_players": 20,
+        "created_at": "2025-12-21 20:00:00",
+        "tunnel_status": "active",
+        "difficulty": "Normal",
+        "pvp": true,
+        "cracked": true,
+        "whitelist": false,
+        "ops": [
+            "Mike"
+        ],
+        "pid": "3322472",
+        "start_at": 1766349539
+    }
+]

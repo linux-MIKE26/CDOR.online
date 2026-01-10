@@ -1,0 +1,12 @@
+[{
+    "id": "srv_mike_fresh",
+    "user_id": "1",
+    "name": "Servidor de Mike",
+    "port": 25565,
+    "version": "1.21.4",
+    "status": "offline",
+    "public_ip": "",
+    "device_token": "mike_secret_token_2025",
+    "last_seen": 0,
+    "created_at": 1734872200
+}]

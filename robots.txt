@@ -1,0 +1,17 @@
+# Robots.txt - CDOR Portfolio v7.0
+
+User-agent: *
+Allow: /
+
+# Priority Pages
+Sitemap: https://cdor.online/sitemap.xml
+
+# Disallow Admin & System Files
+Disallow: /admin/
+Disallow: /app/
+Disallow: /*.sql$
+Disallow: /*.log$
+
+# Allow CSS/JS for Crawlers
+Allow: /assets/css/
+Allow: /assets/js/

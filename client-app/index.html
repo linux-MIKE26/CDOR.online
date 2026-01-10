@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CDOR Host Client</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00d4ff;
+            margin-bottom: 30px;
+            text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+        }
+
+        .card {
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            background: #000;
+            border: 1px solid #333;
+            color: #fff;
+            border-radius: 6px;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #00d4ff;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #00d4ff;
+            color: #000;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #00b8dd;
+            transform: translateY(-2px);
+        }
+
+        #statusPanel {
+            display: none;
+        }
+
+        .status-dot {
+            height: 10px;
+            width: 10px;
+            background-color: #555;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .online {
+            background-color: #0f0;
+            box-shadow: 0 0 8px #0f0;
+        }
+
+        .offline {
+            background-color: #f00;
+        }
+
+        #logArea {
+            background: #000;
+            border: 1px solid #222;
+            height: 150px;
+            margin-top: 20px;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 12px;
+            color: #aaa;
+            text-align: left;
+            overflow-y: auto;
+            border-radius: 6px;
+        }
+
+        .log-line {
+            margin: 2px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">⚡ CDOR HOST CLIENT</div>
+
+        <div id="loginPanel" class="card">
+            <p style="color:#888; font-size: 14px;">Introduce tu Token de Dispositivo</p>
+            <input type="text" id="tokenInput" placeholder="Device Token (ej: abcd...)" value="">
+            <button onclick="login()">CONECTAR</button>
+            <p id="errorMsg" style="color: #f44; font-size: 12px; margin-top: 10px;"></p>
+        </div>
+
+        <div id="statusPanel" class="card">
+            <h3 style="margin: 0 0 15px 0;">Estado del Servidor</h3>
+            <div style="font-size: 18px; margin-bottom: 20px;">
+                <span id="statusDot" class="status-dot"></span>
+                <span id="statusText">DESCONECTADO</span>
+            </div>
+
+            <div id="serverIp" style="color: #00d4ff; font-family: monospace; margin-bottom: 15px;">-</div>
+
+            <div id="logArea"></div>
+        </div>
+    </div>
+
+    <script>
+        const loginPanel = document.getElementById('loginPanel');
+        const statusPanel = document.getElementById('statusPanel');
+        const errorMsg = document.getElementById('errorMsg');
+        const logArea = document.getElementById('logArea');
+        const statusText = document.getElementById('statusText');
+        const statusDot = document.getElementById('statusDot');
+
+        async function login() {
+            const token = document.getElementById('tokenInput').value.trim();
+            if (!token) return;
+
+            try {
+                const res = await window.api.login(token);
+                if (res.success) {
+                    loginPanel.style.display = 'none';
+                    statusPanel.style.display = 'block';
+                    addLog('Conectado al panel de control.');
+                    addLog('Esperando comandos...');
+                } else {
+                    errorMsg.textContent = res.error || 'Error de conexión';
+                }
+            } catch (e) {
+                errorMsg.textContent = 'Error: ' + e.message;
+            }
+        }
+
+        function addLog(msg) {
+            const div = document.createElement('div');
+            div.className = 'log-line';
+            div.textContent = `> ${msg}`;
+            logArea.appendChild(div);
+            logArea.scrollTop = logArea.scrollHeight;
+        }
+
+        window.api.onStatusUpdate((data) => {
+            if (data.status) {
+                statusText.textContent = data.status.toUpperCase();
+                statusDot.className = 'status-dot ' + (data.status === 'online' ? 'online' : 'offline');
+            }
+            if (data.ip) {
+                document.getElementById('serverIp').textContent = data.ip;
+            }
+        });
+
+        window.api.onLog((msg) => addLog(msg));
+    </script>
+</body>
+
+</html>
