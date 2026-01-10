@@ -20,7 +20,6 @@ The source code on GitHub is **ENCRYPTED**. The source code on authorized local 
   <a href="https://github.com/linux-MIKE26">
     <img src="https://img.shields.io/badge/ENCRYPTION-AES--256--CTR-blue?style=for-the-badge&logo=githubactions&logoColor=white&color=050505&labelColor=2563EB" />
   </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=linux-MIKE26.CDOR.online&left_color=black&right_color=gold" />
 </div>
 
 <br />
