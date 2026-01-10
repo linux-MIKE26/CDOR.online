@@ -91,32 +91,23 @@ git reset --hard HEAD
 
 ---
 
-### 📊 // METRICS DASHBOARD
+### 📡 // ACTIVE SYSTEM MODULES
 
-<div align="center">
-  <!-- Stats Card -->
-  <a href="https://github.com/linux-MIKE26">
-  <img src="https://github-readme-stats.vercel.app/api?username=linux-MIKE26&show_icons=true&theme=radical&hide_border=true&bg_color=050505&title_color=FFD700&icon_color=FFD700&text_color=e5e5e5" height="180" alt="stats graph" />
-  </a>
-  
-  <!-- Languages Card -->
-  <a href="https://github.com/linux-MIKE26">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=linux-MIKE26&layout=compact&hide_border=true&bg_color=050505&title_color=FFD700&icon_color=FFD700&text_color=e5e5e5" height="180" alt="languages graph" />
-  </a>
-</div>
+| COMPONENT | TYPE | PROTOCOL | STATUS |
+| :--- | :--- | :--- | :---: |
+| **VAULT ENGINE** | Security | `AES-256-CTR` | 🟢 OPERATIONAL |
+| **NEURAL LINK** | A.I. | `Llama-3-70b` | 🟢 ONLINE |
+| **DEFENSE GRID** | Firewall | `Cloudflare` | 🟢 ACTIVE |
+| **SMTP RELAY** | Comms | `TLS v1.3` | 🟢 SECURE |
 
 <br />
 
-<div align="center">
-  <!-- Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=linux-MIKE26&theme=radical&hide_border=true&background=050505&ring=FFD700&fire=FFD700&currStreakLabel=FFD700" alt="streak graph" />
-</div>
-
-<br />
+### 🔒 // SECURITY COMPLIANCE
 
 <div align="center">
-  <!-- Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=linux-MIKE26&theme=flat&no-frame=true&no-bg=true&margin-w=20&margin-h=20&column=7" />
+  <img src="https://img.shields.io/badge/PROTECTION-AES--256-blue?style=for-the-badge&logo=auth0&logoColor=FFD700&color=050505" />
+  <img src="https://img.shields.io/badge/FIREWALL-TURNSTILE-orange?style=for-the-badge&logo=cloudflare&logoColor=FFD700&color=050505" />
+  <img src="https://img.shields.io/badge/DATABASE-ENCRYPTED-red?style=for-the-badge&logo=mysql&logoColor=FFD700&color=050505" />
 </div>
 
 <br />
